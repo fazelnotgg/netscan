@@ -42,7 +42,7 @@ Tool berbasis CLI untuk memindai WiFi di sekitar, menampilkan informasi teknis j
 Jalankan script setup otomatis:
 
 ```bash
-setup_venv.bat
+.\setup_venv.bat
 ```
 
 Atau manual:
@@ -67,7 +67,7 @@ python main.py
 ### 3. Build ke EXE (Opsional)
 
 ```bash
-build.bat
+.\build.bat
 ```
 
 File `.exe` akan ada di folder `dist/NetScan.exe`
@@ -105,7 +105,7 @@ netscan/
 ├── netscan.spec         # PyInstaller config
 ├── create_icon.py       # Script buat icon
 └── assets/
-    ├── icon.ico         # Icon aplikasi (opsional)
+    └── icon.ico         # Icon aplikasi 
 ```
 
 ---
